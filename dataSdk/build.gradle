@@ -44,7 +44,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
     //external libs for sdk starts here
-    implementation files('libs/sdk_v2.aar')
+    api project(':coresdk')
     implementation 'com.squareup.moshi:moshi-kotlin-codegen:1.9.2'
     implementation 'com.squareup.moshi:moshi-kotlin:1.9.2'//to use KotlinJsonAdapterFactory to create MoshiConverterFactory (Using in RetrofitBuilder)
     implementation 'com.squareup.retrofit2:converter-moshi:2.9.0'
