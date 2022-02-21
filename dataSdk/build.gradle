@@ -67,7 +67,7 @@ publishing {
         mavenJava(MavenPublication) {
             groupId = 'com.github.jithingopalemvigo'
             artifactId = 'em-sam-sdk'
-            version = '1.0.3'
+            version = '1.0.4'
         }
     }
 }
