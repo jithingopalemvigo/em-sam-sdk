@@ -39,12 +39,12 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.4.1'
     implementation 'com.google.android.material:material:1.5.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+    implementation files('D:\\JithinWorkspace\\android_studio_workspace\\SampleTest\\em-sam-sdk-dev\\em-sam-sdk\\coresdk\\sdk_v3.aar')
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
     //external libs for sdk starts here
-    api project(':coresdk')
     implementation 'com.squareup.moshi:moshi-kotlin-codegen:1.9.2'
     implementation 'com.squareup.moshi:moshi-kotlin:1.9.2'//to use KotlinJsonAdapterFactory to create MoshiConverterFactory (Using in RetrofitBuilder)
     implementation 'com.squareup.retrofit2:converter-moshi:2.9.0'
@@ -67,7 +67,7 @@ publishing {
         mavenJava(MavenPublication) {
             groupId = 'com.github.jithingopalemvigo'
             artifactId = 'em-sam-sdk'
-            version = '1.0.2'
+            version = '1.0.3'
         }
     }
 }
