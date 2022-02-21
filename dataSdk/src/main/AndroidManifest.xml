@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.emsdk.datasdk">
+
+    <application>
+        <activity
+            android:name=".BeginiSdkActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
