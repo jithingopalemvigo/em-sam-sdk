@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_common"
+    android:padding="@dimen/text_title_medium">
+
+    <Button
+        android:id="@+id/btnGetStarted"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"
+        android:text="@string/btn_get_started"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:fontFamily="@font/font_normal"
+        android:textSize="@dimen/btn_normal"
+        android:gravity="center"
+        android:background="@drawable/bg_btn_normal"
+
+        android:layout_marginBottom="@dimen/margin_comon"/>
+
+    <TextView
+        android:id="@+id/tvGetStartedInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/get_started_info"
+        app:layout_constraintBottom_toTopOf="@+id/btnGetStarted"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:fontFamily="@font/font_normal"
+        android:lineSpacingExtra="12sp"
+        android:gravity="center"
+        android:textColor="@color/text_normal"
+        android:layout_marginBottom="@dimen/margin_comon"
+        android:textSize="@dimen/text_warning_normal"/>
+
+    <TextView
+        android:id="@+id/tvGetStartedTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/tvGetStartedInfo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/get_started_title"
+        android:fontFamily="@font/font_normal"
+        android:textSize="@dimen/text_title_large"
+        android:gravity="center"
+        android:textColor="@color/title_1"
+        android:layout_marginBottom="@dimen/margin_comon"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

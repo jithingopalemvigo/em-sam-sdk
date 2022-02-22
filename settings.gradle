@@ -9,4 +9,4 @@ dependencyResolutionManagement {
 rootProject.name = "Sdk Sample"
 include ':app'
 include ':dataSdk'
-include ':coresdk'
+include ':beginisdkv6'

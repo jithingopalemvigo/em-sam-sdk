@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_common">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/actionBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/color_primary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/imgBtnGoBack"
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/transparent"
+            android:src="@drawable/ic_back"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_normal"
+            android:text="@string/permission_screen_actionbar_title"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_title_action_bar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/actionBar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/margin_medium"
+
+                android:background="@drawable/bg_permission_rationale"
+                android:paddingBottom="@dimen/margin_comon">
+
+                <TextView
+                    android:id="@+id/tvRationaleText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_base"
+                    android:fontFamily="@font/font_normal"
+                    android:padding="@dimen/margin_base"
+                    android:textColor="@color/text_permission_rationale"
+                    android:text="@string/permission_rationale"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/btn_continue"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/btn_height"
+                    android:layout_marginLeft="@dimen/margin_comon"
+                    android:layout_marginTop="@dimen/margin_comon"
+                    android:layout_marginRight="@dimen/margin_comon"
+                    android:layout_marginBottom="@dimen/margin_comon"
+                    android:background="@drawable/bg_btn_normal"
+                    android:fontFamily="@font/font_normal"
+                    android:text="@string/btn_continue"
+                    android:textColor="@color/white"
+                    android:textAllCaps="false"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tvRationaleText" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <View
+                android:layout_width="?attr/actionBarSize"
+                android:layout_height="?attr/actionBarSize"/>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

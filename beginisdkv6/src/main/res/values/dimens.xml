@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_warning_small">13sp</dimen>
+    <dimen name="text_warning_normal">16sp</dimen>
+    <dimen name="text_title_medium">20sp</dimen>
+    <dimen name="text_title_large">26sp</dimen>
+    <dimen name="btn_normal">16sp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_comon">28dp</dimen>
+    <dimen name="corner_permission_rational">20dp</dimen>
+    <dimen name="margin_base">8dp</dimen>
+    <dimen name="width_processing_progressbar">110dp</dimen>
+    <dimen name="corner_btn">50dp</dimen>
+    <dimen name="btn_height">40dp</dimen>
+    <dimen name="text_title_action_bar">16sp</dimen>
+    <dimen name="default_stroke_width">7dp</dimen>
+    <dimen name="default_background_stroke_width">3dp</dimen>
+</resources>

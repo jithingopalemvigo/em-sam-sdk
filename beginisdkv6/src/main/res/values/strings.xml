@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">BeginiSDKV2</string>
+
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="btn_get_started">Get Started</string>
+    <string name="get_started_info">Use the credit simulator to help you understand how your data affects your credit score.</string>
+    <string name="get_started_title">"Know what influences your credit score "</string>
+    <string name="permission_rationale">In order to generate your credit score, Begini is requesting the following permissions:\
+
+        Location\n\nWe study locational activity. This helps us estimate with a fair level of accuracy your most visited locations. We use this as a signal for building your credit score.
+        \n\n\nCalendar Events\nHaving access to calendar events helps us determine how busy you are. We use this as a signal for building your credit score.</string>
+    <string name="btn_continue">Yes, Continue</string>
+    <string name="title_processing_please_wait">This will take a few minutes.\nPlease wait...</string>
+    <string name="processing_info_genrating_scores">Generating score and insights</string>
+    <string name="processing_info_sending_data">Sending data</string>
+    <string name="processing_info_collecting_data">Collecting data</string>
+    <string name="permission_rationale_title_1">Location</string>
+    <string name="permission_rationale_content_1">We study locational activity.  This helps us estimate with a fair level of accuracy your most visited locations. We use this as a signal for building your credit score. </string>
+    <string name="permission_rationale_title_2">Calendar Events</string>
+    <string name="permission_rationale_content_2">Having access to calendar events helps us determine how busy you are. We use this as a signal for building your credit score.</string>
+    <string name="permission_rationale_title_3">Contacts</string>
+    <string name="permission_rationale_content_3">We access your contacts details to determine a list of people you socialise with. This data helps us to then build a social graph to assist with your credit score. We will only use this data for your personal score and we will not contact any of these people in your contact list.</string>
+    <string name="permission_rationale_title_4">Photos</string>
+    <string name="permission_rationale_content_4">We use read access to Photos to extract geo-location information from image files. This helps us estimate with a fair level of accuracy your most visited locations. We use this as a signal for building your credit score.</string>
+    <string name="permission_rationale_info_1">In order to generate your credit score, Begini is requesting the following permissions:</string>
+    <string name="permission_rationale_info_2">All your personal information is kept 100% secure. Do you want to allow the permissions?</string>
+    <string name="permission_screen_actionbar_title">Required Permissions</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="start_collecting_data">Start Collecting Data</string>
+    <string name="completed">"Share"</string>
+    <string name="parameter_name_in_api">file</string>
+    <string name="message_dialog_need_gps">GPS is disabled in your device. Would you like to enable it?</string>
+    <string name="title_dialog_need_gps">Use location?</string>
+    <string name="btn_turn_on_gps">Yes</string>
+    <string name="title_dialog_important">Important</string>
+    <string name="message_dialog_need_storage_permission">Hi, the app can not work without storage permission. Please go to app settings and enable storage permission.</string>
+    <string name="btn_goto_app_info">Ok</string>
+    <string name="titile_dialog_no_interent">Internet</string>
+    <string name="message_dialog_no_interent">Can not connect with internet. Please turn on network and try again.</string>
+    <string name="btn_try_again">Try Again</string>
+    <string name="message_score_generation_completed">Your data analysis completed. Scores will be shared with your bank. Please go back.</string>
+    <string name="go_back">Go back</string>
+</resources>
