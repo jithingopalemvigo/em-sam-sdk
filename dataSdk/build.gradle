@@ -12,9 +12,10 @@ android {
         minSdk 21
         targetSdk 31
         versionCode 1
-        versionName "1.0.13"
+        versionName "1.0.14"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
+        multiDexEnabled true
     }
 
     buildTypes {
@@ -70,7 +71,7 @@ afterEvaluate {
 
                 groupId = 'com.github.jithingopalemvigo'
                 artifactId = 'dataSdk'
-                version = '1.0.13'
+                version = '1.0.14'
             }
         }
     }
