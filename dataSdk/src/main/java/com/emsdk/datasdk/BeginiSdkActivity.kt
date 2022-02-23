@@ -4,7 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import com.begini.androidsdk.model.replaceFragment
+import com.begini.androidsdkv2.util.replaceFragment
 import com.begini.androidsdkv2.BeginiApp
 import com.begini.androidsdkv2.core.BeginiDataSdkOptions
 import com.begini.androidsdkv2.core.BeginiDataSdkResult
